@@ -4659,7 +4659,7 @@ figure {
       letter-spacing: 2px;
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu ul {
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0; }
     @media screen and (max-width: 768px) {
@@ -5204,7 +5204,7 @@ body.offcanvas {
     bottom: 10px;
     left: 10px;
     right: 10px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 1);
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -5223,7 +5223,7 @@ body.offcanvas {
           display: inline;
           padding-right: 5px; }
           .project .desc .con .icon span a {
-            color: #cccccc;
+            color: white;
             padding: 5px;
             background: #333333;
             -webkit-border-radius: 4px;
@@ -5232,7 +5232,7 @@ body.offcanvas {
             border-radius: 4px; }
         .project .desc .con .icon i {
           font-size: 16px;
-          color: #cccccc; }
+          color: white; }
     .project .desc h3 {
       font-size: 16px;
       font-weight: 500;
@@ -5540,9 +5540,9 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .row-bottom-padded-md {
       padding-bottom: 1em; } }
-
+/*
 .js .animate-box {
-  opacity: 0; }
+  opacity: 1; }*/
 
 #sticky_item {
   overflow: hidden;
