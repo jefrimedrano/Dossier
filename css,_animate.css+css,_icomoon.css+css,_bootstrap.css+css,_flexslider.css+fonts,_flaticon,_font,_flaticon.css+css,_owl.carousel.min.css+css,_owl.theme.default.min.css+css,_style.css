@@ -2725,16 +2725,9 @@ th {
   }
 
   p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
+ 
 
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
+  
 
   .label {
     border: 1px solid #000;
@@ -2822,23 +2815,21 @@ hr {
   cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h3, h4, h5, h6,
+.h1, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
 h1 small,
-h1 .small, h2 small,
-h2 .small, h3 small,
+h1 .small, h3 small,
 h3 .small, h4 small,
 h4 .small, h5 small,
 h5 .small, h6 small,
 h6 .small,
 .h1 small,
-.h1 .small, .h2 small,
-.h2 .small, .h3 small,
+.h1 .small,.h3 small,
 .h3 .small, .h4 small,
 .h4 .small, .h5 small,
 .h5 .small, .h6 small,
@@ -2849,7 +2840,6 @@ h6 .small,
 }
 
 h1, .h1,
-h2, .h2,
 h3, .h3 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -2857,9 +2847,6 @@ h3, .h3 {
 h1 small,
 h1 .small, .h1 small,
 .h1 .small,
-h2 small,
-h2 .small, .h2 small,
-.h2 .small,
 h3 small,
 h3 .small, .h3 small,
 .h3 .small {
@@ -2888,9 +2875,6 @@ h1, .h1 {
   font-size: 36px;
 }
 
-h2, .h2 {
-  font-size: 30px;
-}
 
 h3, .h3 {
   font-size: 24px;
@@ -4583,7 +4567,7 @@ a {
 p {
   margin-bottom: 1.5em; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,  h3, h4, h5, h6 {
   color: #000;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -4810,11 +4794,7 @@ figure {
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
-          margin: 0;
-          padding: 0;
-          color: black;
-          font-family: "Quicksand", Arial, sans-serif; }
+
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 44px;
@@ -4823,14 +4803,8 @@ figure {
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
-          font-size: 18px;
-          line-height: 1.5;
-          margin-bottom: 30px;
-          font-weight: 300;
-          font-family: "Quicksand", Arial, sans-serif; }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
-            color: rgba(0, 0, 0, 0.8); }
+      
+         
         #colorlib-hero .flexslider .slider-text > .slider-text-inner s
 .colorlib-lead {
           font-size: 20px;
@@ -5117,9 +5091,7 @@ body.offcanvas {
   .colorlib-feature .colorlib-text {
     padding-left: 120px;
     width: 100%; }
-    .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
-      margin: 0;
-      padding: 0; }
+   
     .colorlib-feature .colorlib-text h3 {
       font-weight: 500;
       margin-bottom: 20px;
@@ -5558,3 +5530,5 @@ body.offcanvas {
     height: inherit !important;
     float: left;
     padding-top: 30px; } }
+
+   
